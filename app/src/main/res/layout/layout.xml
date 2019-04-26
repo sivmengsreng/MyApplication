@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#12e60f"
+        android:text="Tab1"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#e4d90f"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="Tab2"
+        android:gravity="center"/>
+<TextView
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:background="#0ecce9"
+    android:layout_alignParentRight="true"
+    android:text="Tab3"
+    android:gravity="center"
+    />
+
+    <TextView
+        android:id="@+id/tvcenter"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#ba0ade"
+        android:text="Tab4"
+        android:gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#0aed8b"
+        android:text="Tab5"
+        android:gravity="center"
+        android:layout_below="@+id/tvcenter"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="#07b1ef"
+        android:gravity="center"
+        android:text="Tab6"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvcenter"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#e908ad"
+        android:gravity="center"
+        android:text="Tab7"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>
